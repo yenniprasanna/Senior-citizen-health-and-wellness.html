@@ -1,0 +1,92 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: gainsboro;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Counseling Section */
+.counseling-section {
+  background-color: #f0f0f0;
+  padding: 50px;
+  text-align: center;
+  background-image: url('https://thumbs.dreamstime.com/b/senior-couple-consultation-therapist-advice-counseling-mental-health-support-psychologist-help-mature-people-321639335.jpg'); /* Add your image */
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.counseling-section h1 {
+  color: rgb(69, 3, 60);
+}
+
+.services-list {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.services-list h2 {
+  margin-bottom: 10px;
+  color:rgb(69, 3, 60);
+}
+
+.services-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-list ul li {
+  background-color: gainsboro;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Form Styles */
+#counseling-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#counseling-form h3 {
+  margin-bottom: 20px;
+  color:rgb(69, 3, 60);
+}
+
+#counseling-form label {
+  margin: 10px 0 5px;
+  width: 100%;
+}
+
+#counseling-form input,
+#counseling-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#counseling-form button {
+  padding: 10px 20px;
+  background-color: rgb(69, 3, 60);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#form-response {
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+}

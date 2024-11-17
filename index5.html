@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition Plans for Senior Citizens</title>
+  <link rel="stylesheet" href="style5.css">
+  <script src="script5.js" defer></script>
+</head>
+<body>
+
+  <!-- Nutrition Plans Section -->
+  <section id="nutrition-plans" class="nutrition-section">
+    <h1>Nutrition Plans for Senior Citizens</h1>
+    <p>Proper nutrition is essential for seniors to maintain health, energy levels, and quality of life. Here are some nutritious meal plans tailored for older adults.</p>
+
+    <!-- Suggested Meal Plans -->
+    <div class="meal-plans">
+      <h2>Suggested Meal Plans:</h2>
+      <ul>
+        <li>
+          <h3>Breakfast:</h3>
+          <p>Oatmeal with fresh fruits and nuts</p>
+        </li>
+        <li>
+          <h3>Lunch:</h3>
+          <p>Grilled chicken salad with a variety of vegetables</p>
+        </li>
+        <li>
+          <h3>Dinner:</h3>
+          <p>Steamed fish with quinoa and steamed broccoli</p>
+        </li>
+        <li>
+          <h3>Snacks:</h3>
+          <p>Yogurt with berries or a handful of almonds</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Form to Request Personalized Nutrition Advice -->
+    <form id="nutrition-form">
+      <h3>Request Personalized Nutrition Advice</h3>
+
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required min="50">
+
+      <label for="contactNumber">Contact Number:</label>
+      <input type="tel" id="contactNumber" name="contactNumber" required placeholder="e.g., 123-456-7890">
+
+      <label for="dietaryRestrictions">Dietary Restrictions:</label>
+      <textarea id="dietaryRestrictions" name="dietaryRestrictions" placeholder="Describe any dietary restrictions or preferences..." required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+
+    <div id="form-response"></div>
+  </section>
+
+</body>
+</html>

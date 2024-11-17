@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Counseling for Senior Citizens</title>
+  <link rel="stylesheet" href="style7.css">
+  <script src="script7.js" defer></script>
+</head>
+<body>
+
+  <!-- Mental Health Counseling Section -->
+  <section id="mental-health-counseling" class="counseling-section">
+    <h1>Mental Health Counseling for Senior Citizens</h1>
+    <p>Maintaining mental health is essential for seniors to lead fulfilling lives. Our counseling services provide support and resources tailored to their needs.</p>
+
+    <!-- Available Counseling Services -->
+    <div class="services-list">
+      <h2>Available Counseling Services:</h2>
+      <ul>
+        <li>
+          <h3>Individual Counseling:</h3>
+          <p>One-on-one sessions focusing on personal challenges and emotional well-being.</p>
+        </li>
+        <li>
+          <h3>Group Therapy:</h3>
+          <p>Support groups for seniors to share experiences and build community.</p>
+        </li>
+        <li>
+          <h3>Family Counseling:</h3>
+          <p>Involving family members in sessions to improve communication and understanding.</p>
+        </li>
+        <li>
+          <h3>Telehealth Services:</h3>
+          <p>Convenient online counseling sessions from the comfort of home.</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Form to Request More Information -->
+    <form id="counseling-form">
+      <h3>Request More Information</h3>
+
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required min="50">
+
+      <label for="contactNumber">Contact Number:</label>
+      <input type="tel" id="contactNumber" name="contactNumber" required placeholder="e.g., 123-456-7890">
+
+      <label for="counselingNeeds">Counseling Needs:</label>
+      <textarea id="counselingNeeds" name="counselingNeeds" placeholder="Describe your needs or questions..." required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+
+    <div id="form-response"></div>
+  </section>
+
+</body>
+</html>

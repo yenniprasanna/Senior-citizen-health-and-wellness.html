@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise Routines for Senior Citizens</title>
+  <link rel="stylesheet" href="style6.css">
+  <script src="script6.js" defer></script>
+</head>
+<body>
+
+  <!-- Exercise Routines Section -->
+  <section id="exercise-routines" class="exercise-section">
+    <h1>Exercise Routines for Senior Citizens</h1>
+    <p>Staying active is crucial for maintaining health and mobility in seniors. Here are some gentle and effective exercise routines tailored for older adults.</p>
+
+    <!-- Suggested Exercise Routines -->
+    <div class="exercise-routines-list">
+      <h2>Suggested Exercise Routines:</h2>
+      <ul>
+        <li>
+          <h3>Warm-Up:</h3>
+          <p>5-10 minutes of gentle stretching and breathing exercises</p>
+        </li>
+        <li>
+          <h3>Strength Training:</h3>
+          <p>Light weight lifting or resistance band exercises (2-3 times a week)</p>
+        </li>
+        <li>
+          <h3>Balance Exercises:</h3>
+          <p>Standing on one leg, heel-to-toe walking, and tai chi</p>
+        </li>
+        <li>
+          <h3>Cardio:</h3>
+          <p>Brisk walking, swimming, or cycling for 20-30 minutes (at least 3 times a week)</p>
+        </li>
+        <li>
+          <h3>Cool Down:</h3>
+          <p>5-10 minutes of stretching and relaxation exercises</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Form to Request Personalized Exercise Advice -->
+    <form id="exercise-form">
+      <h3>Request Personalized Exercise Advice</h3>
+
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required min="50">
+
+      <label for="contactNumber">Contact Number:</label>
+      <input type="tel" id="contactNumber" name="contactNumber" required placeholder="e.g., 123-456-7890">
+
+      <label for="exerciseGoals">Exercise Goals:</label>
+      <textarea id="exerciseGoals" name="exerciseGoals" placeholder="Describe your goals or any health concerns..." required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+
+    <div id="form-response"></div>
+  </section>
+
+</body>
+</html>

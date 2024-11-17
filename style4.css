@@ -1,0 +1,91 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(69, 3, 60);
+  color: rgb(69, 3, 60);
+  line-height: 1.6;
+  
+}
+
+/* Therapy Section */
+.therapy-section {
+  background-color: rgb(244, 12, 159);
+  padding: 50px;
+  text-align: center;
+  background-image: url('https://media.istockphoto.com/id/471562930/photo/instructor-assisting-senior-woman-in-exercising.jpg?s=612x612&w=0&k=20&c=ZMAPgHxNOFIqC5SHsqkt940NXvt-SFJuG8JK7Bp330k='); /* Add your image */
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.therapy-section h1 {
+  color: white;
+}
+
+.benefits-list {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.benefits-list h2 {
+  margin-bottom: 10px;
+}
+
+.benefits-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list ul li {
+  background-color: #daabcf56;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Form Styles */
+#therapy-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#therapy-form h3 {
+  margin-bottom: 20px;
+}
+
+#therapy-form label {
+  margin: 10px 0 5px;
+  width: 100%;
+}
+
+#therapy-form input,
+#therapy-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#therapy-form button {
+  padding: 10px 20px;
+  background-color: rgb(69, 3, 60);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#form-response {
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+}

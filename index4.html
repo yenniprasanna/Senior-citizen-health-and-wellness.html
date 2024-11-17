@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physical Therapy for Senior Citizens</title>
+  <link rel="stylesheet" href="style4.css">
+  <script src="script4.js" defer></script>
+</head>
+<body>
+
+  <!-- Physical Therapy Section -->
+  <section id="physical-therapy" class="therapy-section">
+    <h1>Physical Therapy for Senior Citizens</h1>
+    <p>Our physical therapy services are designed to help seniors regain mobility, strength, and independence, ensuring a better quality of life.</p>
+
+    <!-- Benefits of Physical Therapy -->
+    <div class="benefits-list">
+      <h2>Benefits of Physical Therapy:</h2>
+      <ul>
+        <li>Improves mobility and flexibility</li>
+        <li>Enhances strength and endurance</li>
+        <li>Reduces pain and discomfort</li>
+        <li>Helps with balance and coordination</li>
+        <li>Promotes overall health and wellness</li>
+        <li>Facilitates recovery from surgery or injury</li>
+      </ul>
+    </div>
+
+    <!-- Form to Request More Information -->
+    <form id="therapy-form">
+      <h3>Request More Information</h3>
+
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required min="50">
+
+      <label for="contactNumber">Contact Number:</label>
+      <input type="tel" id="contactNumber" name="contactNumber" required placeholder="e.g., 123-456-7890">
+
+      <label for="therapyDetails">Details:</label>
+      <textarea id="therapyDetails" name="therapyDetails" placeholder="Describe your needs or questions..." required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+
+    <div id="form-response"></div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senior Care Health Services</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      
+      <!-- Services Dropdown Menu -->
+      <li class="dropdown">
+        <a href="#services" class="dropbtn">Services</a>
+        <div class="dropdown-content">
+          <a href="#homecare">Home Care</a>
+          <a href="#healthmonitoring">Health Monitoring</a>
+          <a href="#physicaltherapy">Physical Therapy</a>
+        </div>
+      </li>
+
+      <li><a href="#contact">Get in Touch</a></li>
+    </ul>
+  </nav>
+
+  <!-- Rest of your content -->
+  <section id="home" class="hero-section">
+    <h1>Senior Care Health Services</h1>
+    <p>We provide compassionate care and comprehensive healthcare solutions for seniors.</p>
+    <button onclick="scrollToSection('services')">Explore Services</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>Our mission is to offer tailored healthcare services to seniors, ensuring their well-being and happiness.</p>
+    <div class="team">
+      <div class="team-member">
+        <h3>Dr.Randev</h3>
+        <p>Lead Healthcare Specialist</p>
+      </div>
+      <div class="team-member">
+        <h3>Nurse Jane Smith</h3>
+        <p>Senior Care Nurse</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card" id="homecare">
+        <h3>Home Care Services</h3>
+        <p>Personalized care in the comfort of your home.</p>
+        <h2><a href="index3.html">Home care Services</a></h2>
+        
+      </div>
+      <div class="service-card" id="healthmonitoring">
+        <h3>Health Monitoring</h3>
+        <p>Track vital health metrics with ease.</p>
+        <h2><a href="index2.html">Health Monitoring</a></h2>
+      </div>
+      <div class="service-card" id="physicaltherapy">
+        <h3>Physical Therapy</h3>
+        <p>Regain mobility and strength through therapy.</p>
+        <h2> <a href="index4.html">Physical Therapy</a></h2>
+      </div>
+      <div class="service-card" id="mental-health-counseling">
+        <h3>Mental Health Counseling</h3>
+        <p>Maintaining mental health is essential for seniors to lead fulfilling lives. Our counseling services provide support and resources tailored to their needs.</p>
+        <h2><a href="index7.html">Mental Health Counseling</a></h2>
+      </div>
+      <div class="service-card" id="nutrition-plans">
+        <h3>Nutrition Plans</h3>
+        <p>Proper nutrition is essential for seniors to maintain health, energy levels, and quality of life. Here are some nutritious meal plans tailored for older adults.</p>
+        <h2><a href="index5.html">Nutrition Plans</a></h2>
+      </div>
+      <div class="service-card" id="Exercise Routines for Seniors">
+        <h3>Exercise Routines for Seniors</h3>
+        <p>Staying active is crucial for maintaining health and mobility in seniors. Here are some gentle and effective exercise routines tailored for older adults.</p>
+        <h2> <a href="index6.html">Exercise Routines for Seniors</a></h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get in Touch Section -->
+  <section id="contact" class="contact-section">
+    <h2>Get in Touch</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Senior Care Health Services</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: lightgrey;
+  color: black;
+  line-height: 1.6;
+}
+
+/* Nutrition Section */
+.nutrition-section {
+  background-color: #f0f0f0;
+  padding: 50px;
+  text-align: center;
+  background-image: url('https://bucknercalderwoods.org/wp-content/uploads/2022/05/Nutrition-Education_Counseling-300x210.jpeg'); /* Add your image */
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.nutrition-section h1 {
+  color: rgb(69, 3, 60);
+}
+
+.meal-plans {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.meal-plans h2 {
+  margin-bottom: 10px;
+}
+
+.meal-plans ul {
+  list-style: none;
+  padding: 0;
+}
+
+.meal-plans ul li {
+  background-color: rgb(202, 194, 194);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Form Styles */
+#nutrition-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nutrition-form h3 {
+  margin-bottom: 20px;
+}
+
+#nutrition-form label {
+  margin: 10px 0 5px;
+  width: 100%;
+}
+
+#nutrition-form input,
+#nutrition-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#nutrition-form button {
+  padding: 10px 20px;
+  background-color: rgb(69, 3, 60);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#form-response {
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+}
